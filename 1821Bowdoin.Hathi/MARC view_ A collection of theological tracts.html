@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html data-analytics-enabled="true">
+<head>
+  <title>MARC view: A collection of theological tracts</title>
+  
+  <script>
+  let $$assets = {"stylesheet":"\/common\/firebird\/dist\/assets\/index-4642b204.css","script":"\/common\/firebird\/dist\/assets\/index-9c01fd80.js"};
+  </script>
+  
+  <script type="text/javascript">
+  let head = document.head;
+  function addScript(options) {
+    let scriptEl = document.createElement('script');
+    if ( options.crossOrigin ) { scriptEl.crossOrigin = options.crossOrigin; }
+    if ( options.type ) { scriptEl.type = options.type; }
+    scriptEl.src = options.href;
+    document.head.appendChild(scriptEl);
+  }
+  function addStylesheet(options) {
+    let linkEl = document.createElement('link');
+    linkEl.rel = 'stylesheet';
+    linkEl.href = options.href;
+    document.head.appendChild(linkEl);
+  }
+
+  let firebird_config = localStorage.getItem('firebird') || '';
+  if ( firebird_config == 'proxy' ) {
+    addScript({ href: `//${location.host}/js/main.js`, type: 'module' });
+  } else if ( firebird_config.match('localhost') ) {
+    addScript({ href: `//${firebird_config}/js/main.js`, type: 'module' });
+  } else if (firebird_config) {
+    // connect to netlify
+    if ( firebird_config ) { firebird_config += '--'; }
+    let hostname = `//${firebird_config}hathitrust-firebird-common.netlify.app`;
+    addStylesheet({ href: `${hostname}/assets/main.css` });
+    addScript({ href: `${hostname}/assets/main.js`, type: 'module' });
+  } else {
+    // local hosting
+    addStylesheet({ href: $$assets.stylesheet});
+    addScript({ href: $$assets.script, type: 'module'});
+  }
+</script>
+<style type="text/css">
+      body {
+        padding: 1.5em;
+      }
+      .even {
+        background-color: #eee
+      }
+      .tag {
+        font-weight: bold;
+      }
+      .vdata {
+        padding-left: 1em;
+      }
+      td {
+        padding-top: 0.0em;
+        border-top: 1pt solid #444;
+      }
+      table {
+        margin-bottom: 5em;
+        border-bottom: 1pt solid #444;
+        line-height: 125%;
+      }
+      .code {
+        padding-left: 0.25em;
+        font-weight: bold;
+        color: #a00;
+        padding-right: 0.15em;
+      }
+  </style>
+  
+  </head>
+<body>
+  <h1 class="mb-3">A collection of theological tracts</h1>
+  <table class="table border-top">
+    <tr class="leader">
+      <td>LDR</td><td class="ind" colspan="2"> </td>
+      <td>00662nam a22002411  4500</td>
+                
+    <tr class="even firstsub">
+      <td class="tag">001</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">001406176</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">003</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">MiAaHDL</td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">005</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">20210817000000.0</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">006</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">m        d        </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">007</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">cr bn ---auaua</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">008</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">890828s1791    enkb          00000 eng  </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">010</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">49035829</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(MiU)990014061760106381</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">sdr-miu.990014061760106381</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">sdr-nyp.b134343396</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(ESTC)ESTCT75736</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(OCoLC)566502</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(SAZTEC)009300650</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(CaOTULAS)176393046</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡z</span><span class="ddata">(MiU)Aleph001406176</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">040</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡c</span><span class="ddata">CarP</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">050</td>
+                                                <td class="ind">0</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">BR45</span>
+                          <span class="code">‡b</span><span class="ddata">.W3 1791</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">100</td>
+                                                <td class="ind">1</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Watson, Richard,</span>
+                          <span class="code">‡d</span><span class="ddata">1737-1816.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">245</td>
+                                                <td class="ind">1</td>
+          <td class="ind">2</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">A collection of theological tracts.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">250</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">2d ed.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">260</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">London,</span>
+                          <span class="code">‡b</span><span class="ddata">T. Evans.,</span>
+                          <span class="code">‡c</span><span class="ddata">1791.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">300</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">6 v.</span>
+                          <span class="code">‡b</span><span class="ddata">map.</span>
+                          <span class="code">‡c</span><span class="ddata">23 cm.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">538</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Mode of access: Internet.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">650</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">0</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Theology</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">CID</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">001406176</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">DAT</td>
+                                                <td class="ind">0</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">19890828000000.0</span>
+                          <span class="code">‡b</span><span class="ddata">20210817000000.0</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">DAT</td>
+                                                <td class="ind">1</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">20210819090747.0</span>
+                          <span class="code">‡b</span><span class="ddata">2023-05-15T17:42:57Z</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">CAT</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">SDR-MIU</span>
+                          <span class="code">‡d</span><span class="ddata">ALMA</span>
+                          <span class="code">‡l</span><span class="ddata">prepare.pl-004-008</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">FMT</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">BK</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">HOL</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡0</span><span class="ddata">sdr-miu.990014061760106381</span>
+                          <span class="code">‡a</span><span class="ddata">MiU</span>
+                          <span class="code">‡b</span><span class="ddata">SDR</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡p</span><span class="ddata">mdp.39015063069572</span>
+                          <span class="code">‡s</span><span class="ddata">MIU</span>
+                          <span class="code">‡z</span><span class="ddata">v.1</span>
+                          <span class="code">‡1</span><span class="ddata">990014061760106381</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20230515</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069572</span>
+                          <span class="code">‡z</span><span class="ddata">v.1</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20231127</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069564</span>
+                          <span class="code">‡z</span><span class="ddata">v.2</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20230603</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069556</span>
+                          <span class="code">‡z</span><span class="ddata">v.3</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20230603</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069705</span>
+                          <span class="code">‡z</span><span class="ddata">v.4</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20230603</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069713</span>
+                          <span class="code">‡z</span><span class="ddata">v.5</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">MIU</span>
+                          <span class="code">‡c</span><span class="ddata">MIU</span>
+                          <span class="code">‡d</span><span class="ddata">20221123</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">mdp.39015063069721</span>
+                          <span class="code">‡z</span><span class="ddata">v.6</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20230712</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240161</span>
+                          <span class="code">‡z</span><span class="ddata">v. 1</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20231003</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240179</span>
+                          <span class="code">‡z</span><span class="ddata">v. 2</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20230515</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240187</span>
+                          <span class="code">‡z</span><span class="ddata">v. 3</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20230520</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240195</span>
+                          <span class="code">‡z</span><span class="ddata">v. 4</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20230515</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240203</span>
+                          <span class="code">‡z</span><span class="ddata">v. 5</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NYP</span>
+                          <span class="code">‡c</span><span class="ddata">NYP</span>
+                          <span class="code">‡d</span><span class="ddata">20230520</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">nyp.33433068240211</span>
+                          <span class="code">‡z</span><span class="ddata">v. 6</span>
+                          <span class="code">‡y</span><span class="ddata">1791</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+  </body>
+</html>
