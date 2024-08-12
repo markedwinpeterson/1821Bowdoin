@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html data-analytics-enabled="true">
+<head>
+  <title>MARC view: The works of John Locke</title>
+  
+  <script>
+  let $$assets = {"stylesheet":"\/common\/firebird\/dist\/assets\/index-4642b204.css","script":"\/common\/firebird\/dist\/assets\/index-9c01fd80.js"};
+  </script>
+  
+  <script type="text/javascript">
+  let head = document.head;
+  function addScript(options) {
+    let scriptEl = document.createElement('script');
+    if ( options.crossOrigin ) { scriptEl.crossOrigin = options.crossOrigin; }
+    if ( options.type ) { scriptEl.type = options.type; }
+    scriptEl.src = options.href;
+    document.head.appendChild(scriptEl);
+  }
+  function addStylesheet(options) {
+    let linkEl = document.createElement('link');
+    linkEl.rel = 'stylesheet';
+    linkEl.href = options.href;
+    document.head.appendChild(linkEl);
+  }
+
+  let firebird_config = localStorage.getItem('firebird') || '';
+  if ( firebird_config == 'proxy' ) {
+    addScript({ href: `//${location.host}/js/main.js`, type: 'module' });
+  } else if ( firebird_config.match('localhost') ) {
+    addScript({ href: `//${firebird_config}/js/main.js`, type: 'module' });
+  } else if (firebird_config) {
+    // connect to netlify
+    if ( firebird_config ) { firebird_config += '--'; }
+    let hostname = `//${firebird_config}hathitrust-firebird-common.netlify.app`;
+    addStylesheet({ href: `${hostname}/assets/main.css` });
+    addScript({ href: `${hostname}/assets/main.js`, type: 'module' });
+  } else {
+    // local hosting
+    addStylesheet({ href: $$assets.stylesheet});
+    addScript({ href: $$assets.script, type: 'module'});
+  }
+</script>
+<style type="text/css">
+      body {
+        padding: 1.5em;
+      }
+      .even {
+        background-color: #eee
+      }
+      .tag {
+        font-weight: bold;
+      }
+      .vdata {
+        padding-left: 1em;
+      }
+      td {
+        padding-top: 0.0em;
+        border-top: 1pt solid #444;
+      }
+      table {
+        margin-bottom: 5em;
+        border-bottom: 1pt solid #444;
+        line-height: 125%;
+      }
+      .code {
+        padding-left: 0.25em;
+        font-weight: bold;
+        color: #a00;
+        padding-right: 0.15em;
+      }
+  </style>
+  
+  </head>
+<body>
+  <h1 class="mb-3">The works of John Locke</h1>
+  <table class="table border-top">
+    <tr class="leader">
+      <td>LDR</td><td class="ind" colspan="2"> </td>
+      <td>00660nam a2200205   4500</td>
+                
+    <tr class="even firstsub">
+      <td class="tag">001</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">102939372</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">003</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">MiAaHDL</td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">005</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">20220902000000.0</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">006</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">m        d        </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">007</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">cr bn ---auaua</td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">008</td>
+            <td class="ind" colspan=2> </td>
+      <td class="cdata">820920s1794    enkc          00110 eng d</td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">sdr-njr.991017474049704646</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(OCoLC)5902701</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(SIRSI)144443</span>
+                          <span class="code">‡9</span><span class="ddata">ExL</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">035</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">(NjR)144443-01rut_inst</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">090</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">B1253</span>
+                          <span class="code">‡b</span><span class="ddata">1794</span>
+                          <span class="code">‡i</span><span class="ddata">09/03/85 T</span>
+                          <span class="code">‡h</span><span class="ddata">04/18/85 N</span>
+                          <span class="code">‡h</span><span class="ddata">08/30/83 T</span>
+                          <span class="code">‡h</span><span class="ddata">09/21/82 CT</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">100</td>
+                                                <td class="ind">1</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Locke, John,</span>
+                          <span class="code">‡d</span><span class="ddata">1632-1704.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">240</td>
+                                                <td class="ind">1</td>
+          <td class="ind">0</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Works.</span>
+                          <span class="code">‡f</span><span class="ddata">1794</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">245</td>
+                                                <td class="ind">1</td>
+          <td class="ind">4</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">The works of John Locke.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">250</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">9th ed.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">260</td>
+                                                <td class="ind">0</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">London :</span>
+                          <span class="code">‡b</span><span class="ddata">Printed for T. Longman ...,</span>
+                          <span class="code">‡c</span><span class="ddata">1794.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">300</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">9 v. :</span>
+                          <span class="code">‡b</span><span class="ddata">port. ;</span>
+                          <span class="code">‡c</span><span class="ddata">23 cm.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">500</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Includes indexes.</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">538</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">Mode of access: Internet.</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">CID</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">102939372</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">DAT</td>
+                                                <td class="ind">0</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">20180804121755.0</span>
+                          <span class="code">‡b</span><span class="ddata">20220902000000.0</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">DAT</td>
+                                                <td class="ind">1</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">20230202140521.0</span>
+                          <span class="code">‡b</span><span class="ddata">2023-02-14T18:31:05Z</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">DAT</td>
+                                                <td class="ind">2</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">2023-02-14T18:30:02Z</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">CAT</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">SDR-NJR</span>
+                          <span class="code">‡c</span><span class="ddata">njr</span>
+                          <span class="code">‡d</span><span class="ddata">ALMA</span>
+                          <span class="code">‡l</span><span class="ddata">prepare.pl-004-008</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">FMT</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡a</span><span class="ddata">BK</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">HOL</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡0</span><span class="ddata">sdr-njr.991017474049704646</span>
+                          <span class="code">‡a</span><span class="ddata">rul</span>
+                          <span class="code">‡b</span><span class="ddata">SDR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡p</span><span class="ddata">rul.39030006346920</span>
+                          <span class="code">‡s</span><span class="ddata">NJR</span>
+                          <span class="code">‡z</span><span class="ddata">v.1</span>
+                          <span class="code">‡1</span><span class="ddata">991017474049704646</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346920</span>
+                          <span class="code">‡z</span><span class="ddata">v.1</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346912</span>
+                          <span class="code">‡z</span><span class="ddata">v.2</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346888</span>
+                          <span class="code">‡z</span><span class="ddata">v.6</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346854</span>
+                          <span class="code">‡z</span><span class="ddata">v.7</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="even firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346862</span>
+                          <span class="code">‡z</span><span class="ddata">v.8</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+                
+    <tr class="odd firstsub">
+      <td class="tag">974</td>
+                                                <td class="ind">⊔</td>
+          <td class="ind">⊔</td>
+          <td class="cdata">
+                                      <span class="code">‡b</span><span class="ddata">NJR</span>
+                          <span class="code">‡c</span><span class="ddata">NJR</span>
+                          <span class="code">‡d</span><span class="ddata">20230214</span>
+                          <span class="code">‡s</span><span class="ddata">google</span>
+                          <span class="code">‡u</span><span class="ddata">rul.39030006346847</span>
+                          <span class="code">‡z</span><span class="ddata">v.9</span>
+                          <span class="code">‡y</span><span class="ddata">1794</span>
+                          <span class="code">‡r</span><span class="ddata">pd</span>
+                          <span class="code">‡q</span><span class="ddata">bib</span>
+                          <span class="code">‡t</span><span class="ddata">non-US bib date1 < 1899</span>
+                    </td>
+          </tr>
+  </body>
+</html>
